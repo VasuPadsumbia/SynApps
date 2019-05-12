@@ -1,0 +1,7 @@
+epicsEnvSet("IOC","iocTestBusyAsyn")
+epicsEnvSet("TOP","/home/vasu/synApps/support/busy-R1-7")
+epicsEnvSet("SUPPORT","/home/vasu/synApps/support")
+epicsEnvSet("ASYN","/home/vasu/synApps/support/asyn-R4-33")
+epicsEnvSet("AUTOSAVE","/home/vasu/synApps/support/autosave-R5-9")
+epicsEnvSet("BUSY","/home/vasu/synApps/support/busy-R1-7")
+epicsEnvSet("EPICS_BASE","/home/vasu/epics/epics-base")

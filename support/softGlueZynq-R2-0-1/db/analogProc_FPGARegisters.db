@@ -1,0 +1,150 @@
+record(longout,"$(P)$(H)DivByN-1_N") {
+	field(PINI, "YES")
+	field(DTYP,"asynUInt32Digital")
+	field(OUT,"@asynMask($(PORT),36,0xffffffff)REG32")
+}
+record(longout,"$(P)$(H)DivByN-2_N") {
+	field(PINI, "YES")
+	field(DTYP,"asynUInt32Digital")
+	field(OUT,"@asynMask($(PORT),37,0xffffffff)REG32")
+}
+record(longout,"$(P)$(H)DivByN-3_N") {
+	field(PINI, "YES")
+	field(DTYP,"asynUInt32Digital")
+	field(OUT,"@asynMask($(PORT),38,0xffffffff)REG32")
+}
+record(longout,"$(P)$(H)DivByN-4_N") {
+	field(PINI, "YES")
+	field(DTYP,"asynUInt32Digital")
+	field(OUT,"@asynMask($(PORT),39,0xffffffff)REG32")
+}
+record(longout,"$(P)$(H)AISO-1_AIN") {
+	field(PINI, "YES")
+	field(DTYP,"asynUInt32Digital")
+	field(OUT,"@asynMask($(PORT),53,0xffffffff)REG32")
+}
+record(longout,"$(P)$(H)AISO-2_AIN") {
+	field(PINI, "YES")
+	field(DTYP,"asynUInt32Digital")
+	field(OUT,"@asynMask($(PORT),54,0xffffffff)REG32")
+}
+# similar to softGlue_InRegister, but use only 12 bits
+record(longin,"$(P)$(H)ADC_1") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0,0xffffffff)REG32")
+	field(FLNK,"$(P)$(H)ADC_1_s")
+}
+record(calc,"$(P)$(H)ADC_1_s") {
+	field(INPA,"$(P)$(H)ADC_1")
+	field(CALC,"a>2047.?a-4096.:a")
+	field(FLNK,"$(P)$(H)ADC_1_8")
+}
+record(calc,"$(P)$(H)ADC_1_8") {
+	field(INPA,"$(P)$(H)ADC_1_LSW")
+	field(CALC,"a&255")
+}
+record(bo,"$(P)$(H)ADC_1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC_1")
+}
+# similar to softGlue_InRegister, but use only 12 bits
+record(longin,"$(P)$(H)ADC_2") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),1,0xffffffff)REG32")
+	field(FLNK,"$(P)$(H)ADC_2_s")
+}
+record(calc,"$(P)$(H)ADC_2_s") {
+	field(INPA,"$(P)$(H)ADC_2")
+	field(CALC,"a>2047.?a-4096.:a")
+	field(FLNK,"$(P)$(H)ADC_2_8")
+}
+record(calc,"$(P)$(H)ADC_2_8") {
+	field(INPA,"$(P)$(H)ADC_2_LSW")
+	field(CALC,"a&255")
+}
+record(bo,"$(P)$(H)ADC_2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC_2")
+}
+# similar to softGlue_InRegister, but use only 12 bits
+record(longin,"$(P)$(H)ADC_3") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),2,0xffffffff)REG32")
+	field(FLNK,"$(P)$(H)ADC_3_s")
+}
+record(calc,"$(P)$(H)ADC_3_s") {
+	field(INPA,"$(P)$(H)ADC_3")
+	field(CALC,"a>2047.?a-4096.:a")
+	field(FLNK,"$(P)$(H)ADC_3_8")
+}
+record(calc,"$(P)$(H)ADC_3_8") {
+	field(INPA,"$(P)$(H)ADC_3_LSW")
+	field(CALC,"a&255")
+}
+record(bo,"$(P)$(H)ADC_3_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC_3")
+}
+# similar to softGlue_InRegister, but use only 12 bits
+record(longin,"$(P)$(H)ADC_4") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),3,0xffffffff)REG32")
+	field(FLNK,"$(P)$(H)ADC_4_s")
+}
+record(calc,"$(P)$(H)ADC_4_s") {
+	field(INPA,"$(P)$(H)ADC_4")
+	field(CALC,"a>2047.?a-4096.:a")
+	field(FLNK,"$(P)$(H)ADC_4_8")
+}
+record(calc,"$(P)$(H)ADC_4_8") {
+	field(INPA,"$(P)$(H)ADC_4_LSW")
+	field(CALC,"a&255")
+}
+record(bo,"$(P)$(H)ADC_4_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC_4")
+}
+# similar to softGlue_InRegister, but use only 12 bits
+record(longin,"$(P)$(H)SIAO-1_VAL") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),7,0xffffffff)REG32")
+	field(FLNK,"$(P)$(H)SIAO-1_VAL_s")
+}
+record(calc,"$(P)$(H)SIAO-1_VAL_s") {
+	field(INPA,"$(P)$(H)SIAO-1_VAL")
+	field(CALC,"a>2047.?a-4096.:a")
+	field(FLNK,"$(P)$(H)SIAO-1_VAL_8")
+}
+record(calc,"$(P)$(H)SIAO-1_VAL_8") {
+	field(INPA,"$(P)$(H)SIAO-1_VAL_LSW")
+	field(CALC,"a&255")
+}
+record(bo,"$(P)$(H)SIAO-1_VAL_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SIAO-1_VAL")
+}
+# similar to softGlue_InRegister, but use only 12 bits
+record(longin,"$(P)$(H)SIAO-1_AOUT") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),8,0xffffffff)REG32")
+	field(FLNK,"$(P)$(H)SIAO-1_AOUT_s")
+}
+record(calc,"$(P)$(H)SIAO-1_AOUT_s") {
+	field(INPA,"$(P)$(H)SIAO-1_AOUT")
+	field(CALC,"a>2047.?a-4096.:a")
+	field(FLNK,"$(P)$(H)SIAO-1_AOUT_8")
+}
+record(calc,"$(P)$(H)SIAO-1_AOUT_8") {
+	field(INPA,"$(P)$(H)SIAO-1_AOUT_LSW")
+	field(CALC,"a&255")
+}
+record(bo,"$(P)$(H)SIAO-1_AOUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SIAO-1_AOUT")
+}

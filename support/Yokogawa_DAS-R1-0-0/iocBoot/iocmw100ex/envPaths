@@ -1,0 +1,3 @@
+epicsEnvSet("IOC","iocmw100ex")
+epicsEnvSet("TOP","/home/vasu/synApps/support/Yokogawa_DAS-R1-0-0")
+epicsEnvSet("EPICS_BASE","/home/vasu/epics/epics-base")

@@ -1,0 +1,5 @@
+epicsEnvSet("IOC","iocTest")
+epicsEnvSet("TOP","/home/vasu/synApps/support/modbus-R2-11")
+epicsEnvSet("SUPPORT","/home/vasu/synApps/support")
+epicsEnvSet("ASYN","/home/vasu/synApps/support/asyn-R4-33")
+epicsEnvSet("EPICS_BASE","/home/vasu/epics/epics-base")

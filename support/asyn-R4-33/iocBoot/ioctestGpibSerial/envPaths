@@ -1,0 +1,6 @@
+epicsEnvSet("IOC","ioctestGpibSerial")
+epicsEnvSet("TOP","/home/vasu/synApps/support/asyn-R4-33")
+epicsEnvSet("SUPPORT","/home/vasu/synApps/support")
+epicsEnvSet("IPAC","/home/vasu/synApps/support/ipac-2-15")
+epicsEnvSet("SNCSEQ","/home/vasu/synApps/support/seq-2-2-5")
+epicsEnvSet("EPICS_BASE","/home/vasu/epics/epics-base")

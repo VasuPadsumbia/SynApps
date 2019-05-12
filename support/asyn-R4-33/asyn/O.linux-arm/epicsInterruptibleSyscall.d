@@ -1,0 +1,23 @@
+epicsInterruptibleSyscall.o: \
+ ../../asyn/asynDriver/epicsInterruptibleSyscall.c \
+ /home/vasu/epics/epics-base/include/os/Linux/osiUnistd.h \
+ /home/vasu/epics/epics-base/include/osiSock.h \
+ /home/vasu/epics/epics-base/include/shareLib.h \
+ /home/vasu/epics/epics-base/include/os/Linux/osdSock.h \
+ /home/vasu/epics/epics-base/include/ellLib.h \
+ ../../asyn/asynDriver/epicsInterruptibleSyscall.h \
+ /home/vasu/epics/epics-base/include/epicsThread.h \
+ /home/vasu/epics/epics-base/include/os/Linux/osdThread.h \
+ /home/vasu/epics/epics-base/include/shareLib.h \
+ /home/vasu/epics/epics-base/include/ellLib.h \
+ /home/vasu/epics/epics-base/include/epicsEvent.h \
+ /home/vasu/epics/epics-base/include/os/Linux/osdEvent.h \
+ /home/vasu/epics/epics-base/include/cantProceed.h \
+ /home/vasu/epics/epics-base/include/compilerDependencies.h \
+ /home/vasu/epics/epics-base/include/compiler/gcc/compilerSpecific.h \
+ /home/vasu/epics/epics-base/include/errlog.h \
+ /home/vasu/epics/epics-base/include/epicsAssert.h \
+ /home/vasu/epics/epics-base/include/epicsSignal.h \
+ /home/vasu/epics/epics-base/include/epicsMutex.h \
+ /home/vasu/epics/epics-base/include/epicsAssert.h \
+ /home/vasu/epics/epics-base/include/os/Linux/osdMutex.h

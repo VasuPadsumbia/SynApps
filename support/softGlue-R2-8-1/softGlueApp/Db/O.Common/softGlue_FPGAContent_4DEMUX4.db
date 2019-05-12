@@ -1,0 +1,752 @@
+record(stringout,"$(P)$(H)DEMUX4-1_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803000,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-1_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803000,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-1_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-1_IN_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-1_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-1_IN_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-1_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-1_IN_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-1_SEL0_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803008,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-1_SEL0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803008,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-1_SEL0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-1_SEL0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-1_SEL0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-1_SEL0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-1_SEL0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-1_SEL0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-1_SEL1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803010,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-1_SEL1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803010,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-1_SEL1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-1_SEL1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-1_SEL1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-1_SEL1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-1_SEL1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-1_SEL1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-2_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803038,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-2_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803038,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-2_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-2_IN_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-2_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-2_IN_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-2_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-2_IN_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-2_SEL0_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803040,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-2_SEL0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803040,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-2_SEL0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-2_SEL0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-2_SEL0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-2_SEL0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-2_SEL0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-2_SEL0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-2_SEL1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803048,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-2_SEL1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803048,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-2_SEL1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-2_SEL1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-2_SEL1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-2_SEL1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-2_SEL1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-2_SEL1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-3_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803070,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-3_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803070,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-3_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-3_IN_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-3_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-3_IN_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-3_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-3_IN_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-3_SEL0_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803078,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-3_SEL0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803078,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-3_SEL0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-3_SEL0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-3_SEL0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-3_SEL0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-3_SEL0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-3_SEL0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-3_SEL1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803080,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-3_SEL1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803080,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-3_SEL1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-3_SEL1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-3_SEL1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-3_SEL1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-3_SEL1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-3_SEL1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-4_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030a8,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-4_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030a8,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-4_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-4_IN_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-4_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-4_IN_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-4_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-4_IN_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-4_SEL0_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030b0,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-4_SEL0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030b0,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-4_SEL0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-4_SEL0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-4_SEL0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-4_SEL0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-4_SEL0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-4_SEL0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-4_SEL1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030b8,0x6f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX4-4_SEL1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030b8,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-4_SEL1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-4_SEL1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-4_SEL1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-4_SEL1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-4_SEL1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-4_SEL1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-1_OUT0_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803018,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-1_OUT0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803018,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-1_OUT0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-1_OUT0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-1_OUT0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-1_OUT1_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803020,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-1_OUT1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803020,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-1_OUT1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-1_OUT1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-1_OUT1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-1_OUT2_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803028,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-1_OUT2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803028,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-1_OUT2_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-1_OUT2_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-1_OUT2_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-1_OUT3_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803030,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-1_OUT3_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803030,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT3_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-1_OUT3_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT3_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-1_OUT3_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-1_OUT3_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-1_OUT3_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-2_OUT0_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803050,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-2_OUT0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803050,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-2_OUT0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-2_OUT0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-2_OUT0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-2_OUT1_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803058,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-2_OUT1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803058,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-2_OUT1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-2_OUT1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-2_OUT1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-2_OUT2_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803060,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-2_OUT2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803060,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-2_OUT2_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-2_OUT2_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-2_OUT2_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-2_OUT3_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803068,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-2_OUT3_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803068,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT3_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-2_OUT3_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT3_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-2_OUT3_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-2_OUT3_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-2_OUT3_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-3_OUT0_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803088,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-3_OUT0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803088,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-3_OUT0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-3_OUT0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-3_OUT0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-3_OUT1_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803090,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-3_OUT1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803090,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-3_OUT1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-3_OUT1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-3_OUT1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-3_OUT2_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x803098,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-3_OUT2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x803098,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-3_OUT2_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-3_OUT2_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-3_OUT2_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-3_OUT3_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030a0,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-3_OUT3_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030a0,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT3_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-3_OUT3_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT3_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-3_OUT3_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-3_OUT3_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-3_OUT3_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-4_OUT0_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030c0,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-4_OUT0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030c0,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-4_OUT0_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-4_OUT0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-4_OUT0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-4_OUT1_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030c8,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-4_OUT1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030c8,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-4_OUT1_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-4_OUT1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-4_OUT1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-4_OUT2_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030d0,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-4_OUT2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030d0,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-4_OUT2_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-4_OUT2_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-4_OUT2_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX4-4_OUT3_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0x8030d8,0x2f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX4-4_OUT3_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0x8030d8,0x10)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT3_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX4-4_OUT3_BI")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT3_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX4-4_OUT3_Signal")
+}
+record(bo,"$(P)$(H)DEMUX4-4_OUT3_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX4-4_OUT3_Signal")
+}
+record(stringout, "$(P)$(H)DEMUX4-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DEMUX4-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DEMUX4-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DEMUX4-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DEMUX4-3_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DEMUX4-3_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DEMUX4-4_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DEMUX4-4_desc") {
+#	field(SIZV, "80")
+#}

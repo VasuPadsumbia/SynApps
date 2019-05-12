@@ -1,0 +1,4366 @@
+record(stringout,"$(P)$(H)AND-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),100,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),100,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-1_IN1_BI")
+}
+record(bo,"$(P)$(H)AND-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)AND-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)AND-1_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),101,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-1_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),101,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-1_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-1_IN2_BI")
+}
+record(bo,"$(P)$(H)AND-1_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-1_IN2_Signal")
+}
+record(bo,"$(P)$(H)AND-1_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-1_IN2_Signal")
+}
+record(stringout,"$(P)$(H)AND-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),102,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),102,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-2_IN1_BI")
+}
+record(bo,"$(P)$(H)AND-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)AND-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)AND-2_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),103,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-2_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),103,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-2_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-2_IN2_BI")
+}
+record(bo,"$(P)$(H)AND-2_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-2_IN2_Signal")
+}
+record(bo,"$(P)$(H)AND-2_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-2_IN2_Signal")
+}
+record(stringout,"$(P)$(H)AND-3_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),104,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-3_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),104,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-3_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-3_IN1_BI")
+}
+record(bo,"$(P)$(H)AND-3_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-3_IN1_Signal")
+}
+record(bo,"$(P)$(H)AND-3_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-3_IN1_Signal")
+}
+record(stringout,"$(P)$(H)AND-3_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),105,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-3_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),105,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-3_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-3_IN2_BI")
+}
+record(bo,"$(P)$(H)AND-3_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-3_IN2_Signal")
+}
+record(bo,"$(P)$(H)AND-3_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-3_IN2_Signal")
+}
+record(stringout,"$(P)$(H)AND-4_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),106,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-4_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),106,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-4_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-4_IN1_BI")
+}
+record(bo,"$(P)$(H)AND-4_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-4_IN1_Signal")
+}
+record(bo,"$(P)$(H)AND-4_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-4_IN1_Signal")
+}
+record(stringout,"$(P)$(H)AND-4_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),107,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)AND-4_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),107,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-4_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-4_IN2_BI")
+}
+record(bo,"$(P)$(H)AND-4_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-4_IN2_Signal")
+}
+record(bo,"$(P)$(H)AND-4_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-4_IN2_Signal")
+}
+record(stringout,"$(P)$(H)OR-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),108,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),108,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-1_IN1_BI")
+}
+record(bo,"$(P)$(H)OR-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)OR-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)OR-1_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),109,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-1_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),109,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-1_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-1_IN2_BI")
+}
+record(bo,"$(P)$(H)OR-1_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-1_IN2_Signal")
+}
+record(bo,"$(P)$(H)OR-1_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-1_IN2_Signal")
+}
+record(stringout,"$(P)$(H)OR-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),110,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),110,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-2_IN1_BI")
+}
+record(bo,"$(P)$(H)OR-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)OR-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)OR-2_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),111,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-2_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),111,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-2_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-2_IN2_BI")
+}
+record(bo,"$(P)$(H)OR-2_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-2_IN2_Signal")
+}
+record(bo,"$(P)$(H)OR-2_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-2_IN2_Signal")
+}
+record(stringout,"$(P)$(H)OR-3_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),112,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-3_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),112,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-3_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-3_IN1_BI")
+}
+record(bo,"$(P)$(H)OR-3_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-3_IN1_Signal")
+}
+record(bo,"$(P)$(H)OR-3_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-3_IN1_Signal")
+}
+record(stringout,"$(P)$(H)OR-3_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),113,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-3_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),113,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-3_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-3_IN2_BI")
+}
+record(bo,"$(P)$(H)OR-3_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-3_IN2_Signal")
+}
+record(bo,"$(P)$(H)OR-3_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-3_IN2_Signal")
+}
+record(stringout,"$(P)$(H)OR-4_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),114,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-4_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),114,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-4_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-4_IN1_BI")
+}
+record(bo,"$(P)$(H)OR-4_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-4_IN1_Signal")
+}
+record(bo,"$(P)$(H)OR-4_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-4_IN1_Signal")
+}
+record(stringout,"$(P)$(H)OR-4_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),115,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)OR-4_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),115,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-4_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-4_IN2_BI")
+}
+record(bo,"$(P)$(H)OR-4_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-4_IN2_Signal")
+}
+record(bo,"$(P)$(H)OR-4_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-4_IN2_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-1_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),120,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)BUFFER-1_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),120,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-1_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-1_IN_BI")
+}
+record(bo,"$(P)$(H)BUFFER-1_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-1_IN_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-1_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-1_IN_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-2_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),121,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)BUFFER-2_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),121,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-2_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-2_IN_BI")
+}
+record(bo,"$(P)$(H)BUFFER-2_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-2_IN_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-2_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-2_IN_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-3_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),122,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)BUFFER-3_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),122,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-3_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-3_IN_BI")
+}
+record(bo,"$(P)$(H)BUFFER-3_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-3_IN_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-3_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-3_IN_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-4_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),123,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)BUFFER-4_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),123,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-4_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-4_IN_BI")
+}
+record(bo,"$(P)$(H)BUFFER-4_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-4_IN_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-4_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-4_IN_Signal")
+}
+record(stringout,"$(P)$(H)DFF-1_D_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),124,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-1_D_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),124,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-1_D_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-1_D_BI")
+}
+record(bo,"$(P)$(H)DFF-1_D_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-1_D_Signal")
+}
+record(bo,"$(P)$(H)DFF-1_D_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-1_D_Signal")
+}
+record(stringout,"$(P)$(H)DFF-1_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),125,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-1_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),125,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-1_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-1_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DFF-1_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-1_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DFF-1_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-1_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DFF-1_SET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),126,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-1_SET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),126,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-1_SET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-1_SET_BI")
+}
+record(bo,"$(P)$(H)DFF-1_SET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-1_SET_Signal")
+}
+record(bo,"$(P)$(H)DFF-1_SET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-1_SET_Signal")
+}
+record(stringout,"$(P)$(H)DFF-1_CLEAR_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),127,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-1_CLEAR_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),127,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-1_CLEAR_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-1_CLEAR_BI")
+}
+record(bo,"$(P)$(H)DFF-1_CLEAR_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-1_CLEAR_Signal")
+}
+record(bo,"$(P)$(H)DFF-1_CLEAR_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-1_CLEAR_Signal")
+}
+record(stringout,"$(P)$(H)DFF-2_D_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),128,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-2_D_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),128,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-2_D_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-2_D_BI")
+}
+record(bo,"$(P)$(H)DFF-2_D_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-2_D_Signal")
+}
+record(bo,"$(P)$(H)DFF-2_D_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-2_D_Signal")
+}
+record(stringout,"$(P)$(H)DFF-2_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),129,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-2_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),129,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-2_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-2_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DFF-2_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-2_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DFF-2_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-2_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DFF-2_SET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),130,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-2_SET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),130,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-2_SET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-2_SET_BI")
+}
+record(bo,"$(P)$(H)DFF-2_SET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-2_SET_Signal")
+}
+record(bo,"$(P)$(H)DFF-2_SET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-2_SET_Signal")
+}
+record(stringout,"$(P)$(H)DFF-2_CLEAR_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),131,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-2_CLEAR_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),131,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-2_CLEAR_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-2_CLEAR_BI")
+}
+record(bo,"$(P)$(H)DFF-2_CLEAR_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-2_CLEAR_Signal")
+}
+record(bo,"$(P)$(H)DFF-2_CLEAR_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-2_CLEAR_Signal")
+}
+record(stringout,"$(P)$(H)DFF-3_D_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),132,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-3_D_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),132,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-3_D_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-3_D_BI")
+}
+record(bo,"$(P)$(H)DFF-3_D_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-3_D_Signal")
+}
+record(bo,"$(P)$(H)DFF-3_D_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-3_D_Signal")
+}
+record(stringout,"$(P)$(H)DFF-3_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),133,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-3_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),133,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-3_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-3_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DFF-3_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-3_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DFF-3_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-3_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DFF-3_SET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),134,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-3_SET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),134,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-3_SET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-3_SET_BI")
+}
+record(bo,"$(P)$(H)DFF-3_SET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-3_SET_Signal")
+}
+record(bo,"$(P)$(H)DFF-3_SET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-3_SET_Signal")
+}
+record(stringout,"$(P)$(H)DFF-3_CLEAR_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),135,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-3_CLEAR_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),135,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-3_CLEAR_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-3_CLEAR_BI")
+}
+record(bo,"$(P)$(H)DFF-3_CLEAR_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-3_CLEAR_Signal")
+}
+record(bo,"$(P)$(H)DFF-3_CLEAR_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-3_CLEAR_Signal")
+}
+record(stringout,"$(P)$(H)DFF-4_D_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),136,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-4_D_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),136,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-4_D_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-4_D_BI")
+}
+record(bo,"$(P)$(H)DFF-4_D_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-4_D_Signal")
+}
+record(bo,"$(P)$(H)DFF-4_D_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-4_D_Signal")
+}
+record(stringout,"$(P)$(H)DFF-4_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),137,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-4_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),137,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-4_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-4_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DFF-4_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-4_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DFF-4_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-4_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DFF-4_SET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),138,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-4_SET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),138,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-4_SET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-4_SET_BI")
+}
+record(bo,"$(P)$(H)DFF-4_SET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-4_SET_Signal")
+}
+record(bo,"$(P)$(H)DFF-4_SET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-4_SET_Signal")
+}
+record(stringout,"$(P)$(H)DFF-4_CLEAR_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),139,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DFF-4_CLEAR_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),139,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-4_CLEAR_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-4_CLEAR_BI")
+}
+record(bo,"$(P)$(H)DFF-4_CLEAR_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-4_CLEAR_Signal")
+}
+record(bo,"$(P)$(H)DFF-4_CLEAR_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-4_CLEAR_Signal")
+}
+record(stringout,"$(P)$(H)LOWPASS128-1_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),140,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)LOWPASS128-1_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),140,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)LOWPASS128-1_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)LOWPASS128-1_IN_BI")
+}
+record(bo,"$(P)$(H)LOWPASS128-1_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)LOWPASS128-1_IN_Signal")
+}
+record(bo,"$(P)$(H)LOWPASS128-1_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)LOWPASS128-1_IN_Signal")
+}
+record(stringout,"$(P)$(H)LOWPASS128-2_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),141,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)LOWPASS128-2_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),141,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)LOWPASS128-2_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)LOWPASS128-2_IN_BI")
+}
+record(bo,"$(P)$(H)LOWPASS128-2_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)LOWPASS128-2_IN_Signal")
+}
+record(bo,"$(P)$(H)LOWPASS128-2_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)LOWPASS128-2_IN_Signal")
+}
+record(stringout,"$(P)$(H)SUM-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),142,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)SUM-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),142,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)SUM-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SUM-1_IN1_BI")
+}
+record(bo,"$(P)$(H)SUM-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)SUM-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)SUM-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)SUM-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)SUM-1_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),143,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)SUM-1_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),143,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)SUM-1_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SUM-1_IN2_BI")
+}
+record(bo,"$(P)$(H)SUM-1_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)SUM-1_IN2_Signal")
+}
+record(bo,"$(P)$(H)SUM-1_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)SUM-1_IN2_Signal")
+}
+record(stringout,"$(P)$(H)SUM-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),144,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)SUM-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),144,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)SUM-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SUM-2_IN1_BI")
+}
+record(bo,"$(P)$(H)SUM-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)SUM-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)SUM-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)SUM-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)SUM-2_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),145,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)SUM-2_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),145,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)SUM-2_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SUM-2_IN2_BI")
+}
+record(bo,"$(P)$(H)SUM-2_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)SUM-2_IN2_Signal")
+}
+record(bo,"$(P)$(H)SUM-2_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)SUM-2_IN2_Signal")
+}
+record(stringout,"$(P)$(H)DIFF-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),146,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIFF-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),146,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIFF-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIFF-1_IN1_BI")
+}
+record(bo,"$(P)$(H)DIFF-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIFF-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)DIFF-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIFF-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)DIFF-1_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),147,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIFF-1_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),147,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIFF-1_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIFF-1_IN2_BI")
+}
+record(bo,"$(P)$(H)DIFF-1_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIFF-1_IN2_Signal")
+}
+record(bo,"$(P)$(H)DIFF-1_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIFF-1_IN2_Signal")
+}
+record(stringout,"$(P)$(H)DIFF-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),148,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIFF-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),148,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIFF-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIFF-2_IN1_BI")
+}
+record(bo,"$(P)$(H)DIFF-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIFF-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)DIFF-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIFF-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)DIFF-2_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),149,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIFF-2_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),149,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIFF-2_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIFF-2_IN2_BI")
+}
+record(bo,"$(P)$(H)DIFF-2_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIFF-2_IN2_Signal")
+}
+record(bo,"$(P)$(H)DIFF-2_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIFF-2_IN2_Signal")
+}
+record(stringout,"$(P)$(H)DIV-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),150,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIV-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),150,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIV-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIV-1_IN1_BI")
+}
+record(bo,"$(P)$(H)DIV-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIV-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)DIV-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIV-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)DIV-1_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),151,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIV-1_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),151,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIV-1_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIV-1_IN2_BI")
+}
+record(bo,"$(P)$(H)DIV-1_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIV-1_IN2_Signal")
+}
+record(bo,"$(P)$(H)DIV-1_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIV-1_IN2_Signal")
+}
+record(stringout,"$(P)$(H)DIV-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),152,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIV-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),152,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIV-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIV-2_IN1_BI")
+}
+record(bo,"$(P)$(H)DIV-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIV-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)DIV-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIV-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)DIV-2_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),153,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DIV-2_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),153,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIV-2_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIV-2_IN2_BI")
+}
+record(bo,"$(P)$(H)DIV-2_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIV-2_IN2_Signal")
+}
+record(bo,"$(P)$(H)DIV-2_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIV-2_IN2_Signal")
+}
+record(stringout,"$(P)$(H)MUL-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),154,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUL-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),154,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUL-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUL-1_IN1_BI")
+}
+record(bo,"$(P)$(H)MUL-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUL-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)MUL-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUL-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)MUL-1_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),155,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUL-1_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),155,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUL-1_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUL-1_IN2_BI")
+}
+record(bo,"$(P)$(H)MUL-1_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUL-1_IN2_Signal")
+}
+record(bo,"$(P)$(H)MUL-1_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUL-1_IN2_Signal")
+}
+record(stringout,"$(P)$(H)MUL-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),156,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUL-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),156,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUL-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUL-2_IN1_BI")
+}
+record(bo,"$(P)$(H)MUL-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUL-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)MUL-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUL-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)MUL-2_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),157,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUL-2_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),157,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUL-2_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUL-2_IN2_BI")
+}
+record(bo,"$(P)$(H)MUL-2_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUL-2_IN2_Signal")
+}
+record(bo,"$(P)$(H)MUL-2_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUL-2_IN2_Signal")
+}
+record(stringout,"$(P)$(H)nDIFF-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),158,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)nDIFF-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),158,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)nDIFF-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)nDIFF-1_IN1_BI")
+}
+record(bo,"$(P)$(H)nDIFF-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)nDIFF-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)nDIFF-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)nDIFF-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)nDIFF-1_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),159,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)nDIFF-1_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),159,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)nDIFF-1_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)nDIFF-1_IN2_BI")
+}
+record(bo,"$(P)$(H)nDIFF-1_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)nDIFF-1_IN2_Signal")
+}
+record(bo,"$(P)$(H)nDIFF-1_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)nDIFF-1_IN2_Signal")
+}
+record(stringout,"$(P)$(H)nDIFF-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),160,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)nDIFF-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),160,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)nDIFF-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)nDIFF-2_IN1_BI")
+}
+record(bo,"$(P)$(H)nDIFF-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)nDIFF-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)nDIFF-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)nDIFF-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)nDIFF-2_IN2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),161,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)nDIFF-2_IN2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),161,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)nDIFF-2_IN2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)nDIFF-2_IN2_BI")
+}
+record(bo,"$(P)$(H)nDIFF-2_IN2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)nDIFF-2_IN2_Signal")
+}
+record(bo,"$(P)$(H)nDIFF-2_IN2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)nDIFF-2_IN2_Signal")
+}
+record(stringout,"$(P)$(H)XADC_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),162,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)XADC_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),162,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)XADC_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)XADC_CLOCK_BI")
+}
+record(bo,"$(P)$(H)XADC_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)XADC_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)XADC_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)XADC_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-1_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),164,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX2-1_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),164,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-1_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-1_IN_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-1_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-1_IN_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-1_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-1_IN_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-1_SEL_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),165,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX2-1_SEL_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),165,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-1_SEL_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-1_SEL_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-1_SEL_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-1_SEL_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-1_SEL_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-1_SEL_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-2_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),166,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX2-2_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),166,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-2_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-2_IN_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-2_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-2_IN_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-2_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-2_IN_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-2_SEL_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),167,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DEMUX2-2_SEL_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),167,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-2_SEL_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-2_SEL_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-2_SEL_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-2_SEL_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-2_SEL_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-2_SEL_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-1_IN0_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),168,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUX2-1_IN0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),168,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-1_IN0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-1_IN0_BI")
+}
+record(bo,"$(P)$(H)MUX2-1_IN0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-1_IN0_Signal")
+}
+record(bo,"$(P)$(H)MUX2-1_IN0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-1_IN0_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-1_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),169,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUX2-1_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),169,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-1_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-1_IN1_BI")
+}
+record(bo,"$(P)$(H)MUX2-1_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-1_IN1_Signal")
+}
+record(bo,"$(P)$(H)MUX2-1_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-1_IN1_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-1_SEL_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),170,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUX2-1_SEL_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),170,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-1_SEL_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-1_SEL_BI")
+}
+record(bo,"$(P)$(H)MUX2-1_SEL_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-1_SEL_Signal")
+}
+record(bo,"$(P)$(H)MUX2-1_SEL_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-1_SEL_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-2_IN0_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),171,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUX2-2_IN0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),171,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-2_IN0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-2_IN0_BI")
+}
+record(bo,"$(P)$(H)MUX2-2_IN0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-2_IN0_Signal")
+}
+record(bo,"$(P)$(H)MUX2-2_IN0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-2_IN0_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-2_IN1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),172,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUX2-2_IN1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),172,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-2_IN1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-2_IN1_BI")
+}
+record(bo,"$(P)$(H)MUX2-2_IN1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-2_IN1_Signal")
+}
+record(bo,"$(P)$(H)MUX2-2_IN1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-2_IN1_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-2_SEL_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),173,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)MUX2-2_SEL_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),173,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-2_SEL_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-2_SEL_BI")
+}
+record(bo,"$(P)$(H)MUX2-2_SEL_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-2_SEL_Signal")
+}
+record(bo,"$(P)$(H)MUX2-2_SEL_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-2_SEL_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-1_ENABLE_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),174,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-1_ENABLE_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),174,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-1_ENABLE_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-1_ENABLE_BI")
+}
+record(bo,"$(P)$(H)DivByN-1_ENABLE_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-1_ENABLE_Signal")
+}
+record(bo,"$(P)$(H)DivByN-1_ENABLE_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-1_ENABLE_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-1_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),175,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-1_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),175,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-1_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-1_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DivByN-1_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-1_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DivByN-1_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-1_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-1_RESET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),176,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-1_RESET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),176,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-1_RESET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-1_RESET_BI")
+}
+record(bo,"$(P)$(H)DivByN-1_RESET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-1_RESET_Signal")
+}
+record(bo,"$(P)$(H)DivByN-1_RESET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-1_RESET_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-2_ENABLE_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),177,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-2_ENABLE_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),177,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-2_ENABLE_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-2_ENABLE_BI")
+}
+record(bo,"$(P)$(H)DivByN-2_ENABLE_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-2_ENABLE_Signal")
+}
+record(bo,"$(P)$(H)DivByN-2_ENABLE_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-2_ENABLE_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-2_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),178,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-2_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),178,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-2_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-2_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DivByN-2_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-2_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DivByN-2_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-2_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-2_RESET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),179,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-2_RESET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),179,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-2_RESET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-2_RESET_BI")
+}
+record(bo,"$(P)$(H)DivByN-2_RESET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-2_RESET_Signal")
+}
+record(bo,"$(P)$(H)DivByN-2_RESET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-2_RESET_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-3_ENABLE_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),180,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-3_ENABLE_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),180,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-3_ENABLE_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-3_ENABLE_BI")
+}
+record(bo,"$(P)$(H)DivByN-3_ENABLE_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-3_ENABLE_Signal")
+}
+record(bo,"$(P)$(H)DivByN-3_ENABLE_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-3_ENABLE_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-3_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),181,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-3_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),181,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-3_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-3_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DivByN-3_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-3_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DivByN-3_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-3_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-3_RESET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),182,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-3_RESET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),182,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-3_RESET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-3_RESET_BI")
+}
+record(bo,"$(P)$(H)DivByN-3_RESET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-3_RESET_Signal")
+}
+record(bo,"$(P)$(H)DivByN-3_RESET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-3_RESET_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-4_ENABLE_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),183,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-4_ENABLE_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),183,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-4_ENABLE_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-4_ENABLE_BI")
+}
+record(bo,"$(P)$(H)DivByN-4_ENABLE_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-4_ENABLE_Signal")
+}
+record(bo,"$(P)$(H)DivByN-4_ENABLE_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-4_ENABLE_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-4_CLOCK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),184,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-4_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),184,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-4_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-4_CLOCK_BI")
+}
+record(bo,"$(P)$(H)DivByN-4_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-4_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)DivByN-4_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-4_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-4_RESET_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),185,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)DivByN-4_RESET_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),185,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-4_RESET_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-4_RESET_BI")
+}
+record(bo,"$(P)$(H)DivByN-4_RESET_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-4_RESET_Signal")
+}
+record(bo,"$(P)$(H)DivByN-4_RESET_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-4_RESET_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-1_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),214,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FILTER-1_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),214,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-1_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-1_IN_BI")
+}
+record(bo,"$(P)$(H)FILTER-1_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-1_IN_Signal")
+}
+record(bo,"$(P)$(H)FILTER-1_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-1_IN_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-2_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),215,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FILTER-2_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),215,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-2_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-2_IN_BI")
+}
+record(bo,"$(P)$(H)FILTER-2_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-2_IN_Signal")
+}
+record(bo,"$(P)$(H)FILTER-2_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-2_IN_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-3_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),216,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FILTER-3_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),216,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-3_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-3_IN_BI")
+}
+record(bo,"$(P)$(H)FILTER-3_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-3_IN_Signal")
+}
+record(bo,"$(P)$(H)FILTER-3_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-3_IN_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-4_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),217,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FILTER-4_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),217,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-4_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-4_IN_BI")
+}
+record(bo,"$(P)$(H)FILTER-4_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-4_IN_Signal")
+}
+record(bo,"$(P)$(H)FILTER-4_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-4_IN_Signal")
+}
+record(stringout,"$(P)$(H)shiftM_CLK_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),226,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)shiftM_CLK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),226,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)shiftM_CLK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)shiftM_CLK_BI")
+}
+record(bo,"$(P)$(H)shiftM_CLK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)shiftM_CLK_Signal")
+}
+record(bo,"$(P)$(H)shiftM_CLK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)shiftM_CLK_Signal")
+}
+record(stringout,"$(P)$(H)SIAO-1_IN_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),228,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)SIAO-1_IN_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),228,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)SIAO-1_IN_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SIAO-1_IN_BI")
+}
+record(bo,"$(P)$(H)SIAO-1_IN_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)SIAO-1_IN_Signal")
+}
+record(bo,"$(P)$(H)SIAO-1_IN_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)SIAO-1_IN_Signal")
+}
+record(stringout,"$(P)$(H)FO1_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),231,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),231,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO1_BI")
+}
+record(bo,"$(P)$(H)FO1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO1_Signal")
+}
+record(bo,"$(P)$(H)FO1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO1_Signal")
+}
+record(stringout,"$(P)$(H)FO2_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),232,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),232,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO2_BI")
+}
+record(bo,"$(P)$(H)FO2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO2_Signal")
+}
+record(bo,"$(P)$(H)FO2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO2_Signal")
+}
+record(stringout,"$(P)$(H)FO3_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),233,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO3_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),233,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO3_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO3_BI")
+}
+record(bo,"$(P)$(H)FO3_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO3_Signal")
+}
+record(bo,"$(P)$(H)FO3_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO3_Signal")
+}
+record(stringout,"$(P)$(H)FO4_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),234,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO4_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),234,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO4_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO4_BI")
+}
+record(bo,"$(P)$(H)FO4_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO4_Signal")
+}
+record(bo,"$(P)$(H)FO4_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO4_Signal")
+}
+record(stringout,"$(P)$(H)FO5_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),235,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO5_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),235,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO5_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO5_BI")
+}
+record(bo,"$(P)$(H)FO5_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO5_Signal")
+}
+record(bo,"$(P)$(H)FO5_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO5_Signal")
+}
+record(stringout,"$(P)$(H)FO6_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),236,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO6_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),236,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO6_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO6_BI")
+}
+record(bo,"$(P)$(H)FO6_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO6_Signal")
+}
+record(bo,"$(P)$(H)FO6_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO6_Signal")
+}
+record(stringout,"$(P)$(H)FO7_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),237,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO7_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),237,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO7_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO7_BI")
+}
+record(bo,"$(P)$(H)FO7_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO7_Signal")
+}
+record(bo,"$(P)$(H)FO7_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO7_Signal")
+}
+record(stringout,"$(P)$(H)FO8_Signal") {
+	field(DESC,"IN")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	# mask is bits ndaaaaa, where 'n' says "negate", 'd' is direct-set bit value
+	# (used if address bits 'a' are all zero).
+	field(OUT,"@asynMask($(PORT),238,0x7f)")
+	info(softGlueIO,"IN")
+}
+record(bi,"$(P)$(H)FO8_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),238,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FO8_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FO8_BI")
+}
+record(bo,"$(P)$(H)FO8_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FO8_Signal")
+}
+record(bo,"$(P)$(H)FO8_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FO8_Signal")
+}
+record(stringout,"$(P)$(H)AND-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),0,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)AND-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),0,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-1_OUT_BI")
+}
+record(bo,"$(P)$(H)AND-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)AND-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)AND-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),1,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)AND-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),1,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-2_OUT_BI")
+}
+record(bo,"$(P)$(H)AND-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)AND-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)AND-3_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),2,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)AND-3_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),2,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-3_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-3_OUT_BI")
+}
+record(bo,"$(P)$(H)AND-3_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-3_OUT_Signal")
+}
+record(bo,"$(P)$(H)AND-3_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-3_OUT_Signal")
+}
+record(stringout,"$(P)$(H)AND-4_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),3,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)AND-4_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),3,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AND-4_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AND-4_OUT_BI")
+}
+record(bo,"$(P)$(H)AND-4_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AND-4_OUT_Signal")
+}
+record(bo,"$(P)$(H)AND-4_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AND-4_OUT_Signal")
+}
+record(stringout,"$(P)$(H)OR-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),4,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)OR-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),4,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-1_OUT_BI")
+}
+record(bo,"$(P)$(H)OR-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)OR-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)OR-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),5,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)OR-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),5,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-2_OUT_BI")
+}
+record(bo,"$(P)$(H)OR-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)OR-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)OR-3_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),6,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)OR-3_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),6,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-3_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-3_OUT_BI")
+}
+record(bo,"$(P)$(H)OR-3_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-3_OUT_Signal")
+}
+record(bo,"$(P)$(H)OR-3_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-3_OUT_Signal")
+}
+record(stringout,"$(P)$(H)OR-4_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),7,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)OR-4_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),7,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)OR-4_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)OR-4_OUT_BI")
+}
+record(bo,"$(P)$(H)OR-4_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)OR-4_OUT_Signal")
+}
+record(bo,"$(P)$(H)OR-4_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)OR-4_OUT_Signal")
+}
+record(stringout,"$(P)$(H)LOWPASS128-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),8,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)LOWPASS128-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),8,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)LOWPASS128-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)LOWPASS128-1_OUT_BI")
+}
+record(bo,"$(P)$(H)LOWPASS128-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)LOWPASS128-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)LOWPASS128-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)LOWPASS128-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)LOWPASS128-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),9,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)LOWPASS128-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),9,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)LOWPASS128-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)LOWPASS128-2_OUT_BI")
+}
+record(bo,"$(P)$(H)LOWPASS128-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)LOWPASS128-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)LOWPASS128-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)LOWPASS128-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),10,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)BUFFER-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),10,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-1_OUT_BI")
+}
+record(bo,"$(P)$(H)BUFFER-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),11,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)BUFFER-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),11,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-2_OUT_BI")
+}
+record(bo,"$(P)$(H)BUFFER-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-3_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),12,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)BUFFER-3_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),12,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-3_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-3_OUT_BI")
+}
+record(bo,"$(P)$(H)BUFFER-3_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-3_OUT_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-3_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-3_OUT_Signal")
+}
+record(stringout,"$(P)$(H)BUFFER-4_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),13,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)BUFFER-4_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),13,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)BUFFER-4_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)BUFFER-4_OUT_BI")
+}
+record(bo,"$(P)$(H)BUFFER-4_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)BUFFER-4_OUT_Signal")
+}
+record(bo,"$(P)$(H)BUFFER-4_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)BUFFER-4_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DFF-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),14,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DFF-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),14,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-1_OUT_BI")
+}
+record(bo,"$(P)$(H)DFF-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)DFF-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DFF-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),15,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DFF-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),15,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-2_OUT_BI")
+}
+record(bo,"$(P)$(H)DFF-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)DFF-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DFF-3_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),16,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DFF-3_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),16,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-3_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-3_OUT_BI")
+}
+record(bo,"$(P)$(H)DFF-3_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-3_OUT_Signal")
+}
+record(bo,"$(P)$(H)DFF-3_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-3_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DFF-4_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),17,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DFF-4_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),17,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DFF-4_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DFF-4_OUT_BI")
+}
+record(bo,"$(P)$(H)DFF-4_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DFF-4_OUT_Signal")
+}
+record(bo,"$(P)$(H)DFF-4_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DFF-4_OUT_Signal")
+}
+record(stringout,"$(P)$(H)SUM-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),18,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)SUM-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),18,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)SUM-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SUM-1_OUT_BI")
+}
+record(bo,"$(P)$(H)SUM-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)SUM-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)SUM-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)SUM-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)SUM-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),19,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)SUM-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),19,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)SUM-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)SUM-2_OUT_BI")
+}
+record(bo,"$(P)$(H)SUM-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)SUM-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)SUM-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)SUM-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DIFF-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),20,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DIFF-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),20,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIFF-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIFF-1_OUT_BI")
+}
+record(bo,"$(P)$(H)DIFF-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIFF-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)DIFF-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIFF-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DIFF-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),21,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DIFF-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),21,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIFF-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIFF-2_OUT_BI")
+}
+record(bo,"$(P)$(H)DIFF-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIFF-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)DIFF-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIFF-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-1_OUT0_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),22,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX2-1_OUT0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),22,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-1_OUT0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-1_OUT0_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-1_OUT0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-1_OUT0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-1_OUT0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-1_OUT0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-1_OUT1_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),23,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX2-1_OUT1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),23,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-1_OUT1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-1_OUT1_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-1_OUT1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-1_OUT1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-1_OUT1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-1_OUT1_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-2_OUT0_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),24,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX2-2_OUT0_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),24,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-2_OUT0_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-2_OUT0_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-2_OUT0_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-2_OUT0_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-2_OUT0_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-2_OUT0_Signal")
+}
+record(stringout,"$(P)$(H)DEMUX2-2_OUT1_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),25,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DEMUX2-2_OUT1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),25,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DEMUX2-2_OUT1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DEMUX2-2_OUT1_BI")
+}
+record(bo,"$(P)$(H)DEMUX2-2_OUT1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DEMUX2-2_OUT1_Signal")
+}
+record(bo,"$(P)$(H)DEMUX2-2_OUT1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DEMUX2-2_OUT1_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),26,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)MUX2-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),26,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-1_OUT_BI")
+}
+record(bo,"$(P)$(H)MUX2-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)MUX2-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)MUX2-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),27,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)MUX2-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),27,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUX2-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUX2-2_OUT_BI")
+}
+record(bo,"$(P)$(H)MUX2-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUX2-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)MUX2-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUX2-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),28,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DivByN-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),28,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-1_OUT_BI")
+}
+record(bo,"$(P)$(H)DivByN-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)DivByN-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),29,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DivByN-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),29,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-2_OUT_BI")
+}
+record(bo,"$(P)$(H)DivByN-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)DivByN-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-3_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),30,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DivByN-3_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),30,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-3_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-3_OUT_BI")
+}
+record(bo,"$(P)$(H)DivByN-3_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-3_OUT_Signal")
+}
+record(bo,"$(P)$(H)DivByN-3_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-3_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DivByN-4_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),31,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DivByN-4_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),31,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DivByN-4_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DivByN-4_OUT_BI")
+}
+record(bo,"$(P)$(H)DivByN-4_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DivByN-4_OUT_Signal")
+}
+record(bo,"$(P)$(H)DivByN-4_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DivByN-4_OUT_Signal")
+}
+record(stringout,"$(P)$(H)ADC-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),32,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)ADC-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),32,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)ADC-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC-1_OUT_BI")
+}
+record(bo,"$(P)$(H)ADC-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)ADC-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)ADC-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)ADC-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)ADC-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),33,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)ADC-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),33,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)ADC-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC-2_OUT_BI")
+}
+record(bo,"$(P)$(H)ADC-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)ADC-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)ADC-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)ADC-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)ADC-3_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),34,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)ADC-3_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),34,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)ADC-3_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC-3_OUT_BI")
+}
+record(bo,"$(P)$(H)ADC-3_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)ADC-3_OUT_Signal")
+}
+record(bo,"$(P)$(H)ADC-3_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)ADC-3_OUT_Signal")
+}
+record(stringout,"$(P)$(H)ADC-4_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),35,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)ADC-4_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),35,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)ADC-4_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)ADC-4_OUT_BI")
+}
+record(bo,"$(P)$(H)ADC-4_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)ADC-4_OUT_Signal")
+}
+record(bo,"$(P)$(H)ADC-4_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)ADC-4_OUT_Signal")
+}
+record(stringout,"$(P)$(H)AISO-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),36,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)AISO-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),36,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AISO-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AISO-1_OUT_BI")
+}
+record(bo,"$(P)$(H)AISO-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AISO-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)AISO-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AISO-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)AISO-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),37,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)AISO-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),37,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)AISO-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)AISO-2_OUT_BI")
+}
+record(bo,"$(P)$(H)AISO-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)AISO-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)AISO-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)AISO-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DIV-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),38,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DIV-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),38,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIV-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIV-1_OUT_BI")
+}
+record(bo,"$(P)$(H)DIV-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIV-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)DIV-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIV-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)DIV-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),39,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)DIV-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),39,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)DIV-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)DIV-2_OUT_BI")
+}
+record(bo,"$(P)$(H)DIV-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)DIV-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)DIV-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)DIV-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),41,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FILTER-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),41,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-1_OUT_BI")
+}
+record(bo,"$(P)$(H)FILTER-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)FILTER-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),42,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FILTER-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),42,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-2_OUT_BI")
+}
+record(bo,"$(P)$(H)FILTER-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)FILTER-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-3_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),43,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FILTER-3_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),43,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-3_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-3_OUT_BI")
+}
+record(bo,"$(P)$(H)FILTER-3_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-3_OUT_Signal")
+}
+record(bo,"$(P)$(H)FILTER-3_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-3_OUT_Signal")
+}
+record(stringout,"$(P)$(H)FILTER-4_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),44,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FILTER-4_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),44,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FILTER-4_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FILTER-4_OUT_BI")
+}
+record(bo,"$(P)$(H)FILTER-4_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FILTER-4_OUT_Signal")
+}
+record(bo,"$(P)$(H)FILTER-4_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FILTER-4_OUT_Signal")
+}
+record(stringout,"$(P)$(H)40MHZ_CLOCK_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),46,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)40MHZ_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),46,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)40MHZ_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)40MHZ_CLOCK_BI")
+}
+record(bo,"$(P)$(H)40MHZ_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)40MHZ_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)40MHZ_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)40MHZ_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)10MHZ_CLOCK_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),47,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)10MHZ_CLOCK_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),47,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)10MHZ_CLOCK_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)10MHZ_CLOCK_BI")
+}
+record(bo,"$(P)$(H)10MHZ_CLOCK_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)10MHZ_CLOCK_Signal")
+}
+record(bo,"$(P)$(H)10MHZ_CLOCK_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)10MHZ_CLOCK_Signal")
+}
+record(stringout,"$(P)$(H)MUL-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),48,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)MUL-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),48,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUL-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUL-1_OUT_BI")
+}
+record(bo,"$(P)$(H)MUL-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUL-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)MUL-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUL-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)MUL-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),49,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)MUL-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),49,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)MUL-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)MUL-2_OUT_BI")
+}
+record(bo,"$(P)$(H)MUL-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)MUL-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)MUL-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)MUL-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)nDIFF-1_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),50,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)nDIFF-1_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),50,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)nDIFF-1_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)nDIFF-1_OUT_BI")
+}
+record(bo,"$(P)$(H)nDIFF-1_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)nDIFF-1_OUT_Signal")
+}
+record(bo,"$(P)$(H)nDIFF-1_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)nDIFF-1_OUT_Signal")
+}
+record(stringout,"$(P)$(H)nDIFF-2_OUT_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),51,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)nDIFF-2_OUT_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),51,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)nDIFF-2_OUT_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)nDIFF-2_OUT_BI")
+}
+record(bo,"$(P)$(H)nDIFF-2_OUT_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)nDIFF-2_OUT_Signal")
+}
+record(bo,"$(P)$(H)nDIFF-2_OUT_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)nDIFF-2_OUT_Signal")
+}
+record(stringout,"$(P)$(H)FI1_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),52,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI1_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),52,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI1_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI1_BI")
+}
+record(bo,"$(P)$(H)FI1_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI1_Signal")
+}
+record(bo,"$(P)$(H)FI1_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI1_Signal")
+}
+record(stringout,"$(P)$(H)FI2_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),53,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI2_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),53,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI2_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI2_BI")
+}
+record(bo,"$(P)$(H)FI2_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI2_Signal")
+}
+record(bo,"$(P)$(H)FI2_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI2_Signal")
+}
+record(stringout,"$(P)$(H)FI3_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),54,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI3_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),54,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI3_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI3_BI")
+}
+record(bo,"$(P)$(H)FI3_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI3_Signal")
+}
+record(bo,"$(P)$(H)FI3_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI3_Signal")
+}
+record(stringout,"$(P)$(H)FI4_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),55,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI4_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),55,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI4_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI4_BI")
+}
+record(bo,"$(P)$(H)FI4_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI4_Signal")
+}
+record(bo,"$(P)$(H)FI4_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI4_Signal")
+}
+record(stringout,"$(P)$(H)FI5_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),56,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI5_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),56,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI5_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI5_BI")
+}
+record(bo,"$(P)$(H)FI5_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI5_Signal")
+}
+record(bo,"$(P)$(H)FI5_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI5_Signal")
+}
+record(stringout,"$(P)$(H)FI6_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),57,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI6_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),57,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI6_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI6_BI")
+}
+record(bo,"$(P)$(H)FI6_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI6_Signal")
+}
+record(bo,"$(P)$(H)FI6_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI6_Signal")
+}
+record(stringout,"$(P)$(H)FI7_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),58,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI7_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),58,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI7_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI7_BI")
+}
+record(bo,"$(P)$(H)FI7_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI7_Signal")
+}
+record(bo,"$(P)$(H)FI7_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI7_Signal")
+}
+record(stringout,"$(P)$(H)FI8_Signal") {
+	field(DESC,"OUT")
+	field(PINI,"YES")
+	field(DTYP,"softGlue")
+	field(OUT,"@asynMask($(PORT),59,0x1f)")
+	info(softGlueIO,"OUT")
+}
+record(bi,"$(P)$(H)FI8_BI") {
+	field(DTYP,"asynUInt32Digital")
+	field(INP,"@asynMask($(PORT),59,0x80)")
+	field(ZNAM,"0")
+	field(ONAM,"1")
+}
+record(bo,"$(P)$(H)FI8_SCAN") {
+	field(SCAN,"Event")
+	field(EVNT,"$(READEVENT)")
+	field(FLNK,"$(P)$(H)FI8_BI")
+}
+record(bo,"$(P)$(H)FI8_SigShow") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@MATCH $(P)$(H)FI8_Signal")
+}
+record(bo,"$(P)$(H)FI8_Show") {
+	field(DTYP,"softGlueShow")
+	field(OUT,"@SHOW $(P)$(H)FI8_Signal")
+}
+record(stringout, "$(P)$(H)circuit_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)circuit_desc") {
+#	field(SIZV, "300")
+#}
+record(stringout, "$(P)$(H)10MHZ_CLOCK_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)10MHZ_CLOCK_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)40MHZ_CLOCK_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)40MHZ_CLOCK_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)AND-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)AND-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)AND-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)AND-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)AND-3_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)AND-3_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)AND-4_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)AND-4_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)OR-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)OR-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)OR-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)OR-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)OR-3_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)OR-3_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)OR-4_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)OR-4_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)BUFFER-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)BUFFER-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)BUFFER-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)BUFFER-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)BUFFER-3_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)BUFFER-3_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)BUFFER-4_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)BUFFER-4_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DEMUX2-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DEMUX2-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DEMUX2-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DEMUX2-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DFF-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DFF-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DFF-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DFF-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DFF-3_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DFF-3_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DFF-4_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DFF-4_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DivByN-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DivByN-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DivByN-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DivByN-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DivByN-3_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DivByN-3_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DivByN-4_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DivByN-4_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)MUX2-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)MUX2-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)MUX2-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)MUX2-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)LOWPASS128-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)LOWPASS128-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)LOWPASS128-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)LOWPASS128-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)SUM-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)SUM-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)SUM-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)SUM-2_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DIFF-1_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DIFF-1_desc") {
+#	field(SIZV, "80")
+#}
+record(stringout, "$(P)$(H)DIFF-2_desc") {
+}
+# In 3.15, we'll be able to use long strings
+#record(lso, "$(P)$(H)DIFF-2_desc") {
+#	field(SIZV, "80")
+#}

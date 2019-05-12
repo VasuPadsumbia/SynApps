@@ -1,0 +1,4 @@
+EPICS_BASE=/home/vasu/epics/epics-base
+SUPPORT=/home/vasu/synApps/support
+SNCSEQ=$(SUPPORT)/seq-2-2-5
+-include $(SUPPORT)/configure/EPICS_BASE.$(EPICS_HOST_ARCH)

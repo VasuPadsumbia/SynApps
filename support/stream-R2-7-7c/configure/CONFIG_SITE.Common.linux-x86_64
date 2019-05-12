@@ -1,0 +1,4 @@
+#To enable regex support, uncomment these lines
+
+#PCRE_INCLUDE=/usr/include/pcre
+#PCRE_LIB=/usr/lib

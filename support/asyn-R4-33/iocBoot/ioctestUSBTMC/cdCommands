@@ -1,0 +1,15 @@
+startup = "/home/vasu/synApps/support/asyn-R4-33/iocBoot/ioctestUSBTMC"
+putenv("IOC=ioctestUSBTMC")
+top = "/home/vasu/synApps/support/asyn-R4-33"
+putenv("TOP=/home/vasu/synApps/support/asyn-R4-33")
+topbin = "/home/vasu/synApps/support/asyn-R4-33/bin/linux-x86_64"
+support = "/home/vasu/synApps/support"
+putenv("SUPPORT=/home/vasu/synApps/support")
+ipac = "/home/vasu/synApps/support/ipac-2-15"
+putenv("IPAC=/home/vasu/synApps/support/ipac-2-15")
+sncseq = "/home/vasu/synApps/support/seq-2-2-5"
+putenv("SNCSEQ=/home/vasu/synApps/support/seq-2-2-5")
+sncseqbin = "/home/vasu/synApps/support/seq-2-2-5/bin/linux-x86_64"
+epics_base = "/home/vasu/epics/epics-base"
+putenv("EPICS_BASE=/home/vasu/epics/epics-base")
+epics_basebin = "/home/vasu/epics/epics-base/bin/linux-x86_64"

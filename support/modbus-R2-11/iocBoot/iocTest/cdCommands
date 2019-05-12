@@ -1,0 +1,13 @@
+startup = "/home/vasu/synApps/support/modbus-R2-11/iocBoot/iocTest"
+putenv("IOC=iocTest")
+top = "/home/vasu/synApps/support/modbus-R2-11"
+putenv("TOP=/home/vasu/synApps/support/modbus-R2-11")
+topbin = "/home/vasu/synApps/support/modbus-R2-11/bin/linux-x86_64"
+support = "/home/vasu/synApps/support"
+putenv("SUPPORT=/home/vasu/synApps/support")
+asyn = "/home/vasu/synApps/support/asyn-R4-33"
+putenv("ASYN=/home/vasu/synApps/support/asyn-R4-33")
+asynbin = "/home/vasu/synApps/support/asyn-R4-33/bin/linux-x86_64"
+epics_base = "/home/vasu/epics/epics-base"
+putenv("EPICS_BASE=/home/vasu/epics/epics-base")
+epics_basebin = "/home/vasu/epics/epics-base/bin/linux-x86_64"
